@@ -27,6 +27,7 @@ function App() {
 
   return (
     <>
+    <h3 className="title">Developer Pen</h3>
       <div className="pane top-pane">
         <Editor 
           language="xml"
