@@ -23,8 +23,6 @@ function App() {
       return () => clearTimeout(timeout)
     },[html,css,js])
 
-  
-
   return (
     <>
     <h3 className="title">Developer Pen</h3>
@@ -50,7 +48,7 @@ function App() {
       </div>
       <div className="pane">
         <iframe
-        scrDoc={srcDoc}
+        srcDoc={srcDoc}
         title="output"
         sandbox="allow-scripts"
         frameBorder="0"

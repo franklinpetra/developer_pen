@@ -1,7 +1,7 @@
 {
   "name": "developer_pen",
   "version": "0.1.0",
-  "homepage":"http://franklinpetra.github.io/developer_pen",
+  "homepage":"https://developer-pen.netlify.app/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -20,12 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-   	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
 
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,9 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "franklinpetra/developer_pen": "^0.1.0"
   }
 }
